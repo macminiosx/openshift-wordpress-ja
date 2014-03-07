@@ -108,6 +108,7 @@ $table_prefix  = 'wp_';
  * language support.
  */
 /* define('WPLANG', ''); */
+
 if (strpos($_SERVER['REQUEST_URI'], '/wp-admin/') === 0) {
     define ('WPLANG', 'ja');
 } else {
