@@ -1,4 +1,3 @@
-
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -13,8 +12,8 @@ RewriteRule . /index.php [L]
 
 Options -Indexes
 
+
 AddHandler cgi-script .cgi
 Options +ExecCGI
 
 SetEnv TZ Asia/Tokyo
-
