@@ -45,4 +45,3 @@ popd >/dev/null
 cp -f ${OPENSHIFT_REPO_DIR}.openshift/config/wp-config.php ${install_dir}/wp-config.php
 cp -Rf ${OPENSHIFT_REPO_DIR}php/* ${install_dir}/
 cp -f ${OPENSHIFT_REPO_DIR}php/.ht* ${install_dir}/
-
