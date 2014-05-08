@@ -18,6 +18,7 @@ fi
 if [ -d "${OPENSHIFT_DATA_DIR}current" ]; then
   cp -Rf ${OPENSHIFT_REPO_DIR}php/* ${OPENSHIFT_DATA_DIR}current/
   cp -f ${OPENSHIFT_REPO_DIR}php/.ht* ${OPENSHIFT_DATA_DIR}current/
+  cp -f ${OPENSHIFT_REPO_DIR}.openshift/config/wp-config.php ${OPENSHIFT_DATA_DIR}current/wp-config.php
 fi
 
 # Replace the php/ directory with provided clean Wordpress installation
