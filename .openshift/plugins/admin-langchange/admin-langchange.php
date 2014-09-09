@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: admin lang change
-Plugin URI: https://github.com/macminiosx/openshift-wordpress-ja/tree/master/.openshift/plugins
+Plugin URI: https://github.com/macminiosx/openshift-wordpress-ja/tree/master/.openshift/plugins/admin-langchange
 Description:  Change lang admin in 'ja' and site in 'en' plugin.
 
 Version: 0.1
